@@ -16,6 +16,6 @@ IF %EXECUTE_PS1% EQU 1 (
 ) ELSE (
 	echo "Skipping  TLSConfig.ps1 invocation on emulated environment" >> %LOG_FILE% 2>&1	
 )    
-echo "why?"
+
 EXIT /B 0 
 
